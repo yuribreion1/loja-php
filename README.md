@@ -15,4 +15,4 @@
             $conexao = mysqli_connect('localhost','root','','loja');
     ```
 
-- Um arquivo separado foi criado com as funções relacionadas a banco de dados como [`funcoes-banco.php`](https://github.com/yuribreion1/loja-php/blob/master/funcoes-banco.php)
+- Um arquivo separado foi criado com as funções relacionadas a banco de dados como [funcoes-banco.php](https://github.com/yuribreion1/loja-php/blob/master/funcoes-banco.php)
