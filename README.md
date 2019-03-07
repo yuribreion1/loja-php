@@ -1,6 +1,6 @@
 ## Treinamento em PHP
 
-![php](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png)
+![php](https://wiki.hosthp.com.br/wp-content/uploads/2017/03/phplogo-highres-300x150.png)
 
 - Estudos feitos com base no curso em [PHP da Alura](https://cursos.alura.com.br/course/php-mysql-e-fundamentos-da-web)
 - O framework utilizado foi o [UIkit](https://getuikit.com/docs/introduction)
