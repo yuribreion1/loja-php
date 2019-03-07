@@ -2,7 +2,6 @@
 
 ![php](https://wiki.hosthp.com.br/wp-content/uploads/2017/03/phplogo-highres-300x150.png)
 
-- Estudos feitos com base no curso em [PHP da Alura](https://cursos.alura.com.br/course/php-mysql-e-fundamentos-da-web)
 - O framework utilizado foi o [UIkit](https://getuikit.com/docs/introduction)
 
 - Foi usado a funcionalidade de `include` para carregamento de partes de código para otimizar
@@ -15,3 +14,5 @@
         <?php 
             $conexao = mysqli_connect('localhost','root','','loja');
     ```
+
+- Um arquivo separado foi criado com as funções relacionadas a banco de dados como [`funcoes-banco.php`](https://github.com/yuribreion1/loja-php/blob/master/funcoes-banco.php)
