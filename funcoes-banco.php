@@ -19,3 +19,14 @@ function removerProdutos($conexao, $id) {
     $query = "DELETE FROM produtos WHERE ID = {$id}";
     return mysqli_query($conexao, $query);
 }
+
+function atualizarProduto($conexao, $id, $nome, $preco) {
+    $query = "UPDATE produtos SET nome = '{$nome}' ,preco = {$preco} WHERE id = {$id}";
+    return mysqli_query($conexao, $query);
+}
+
+function listarProdutosPorId($conexao, $id) {
+    $query = "SELECT nome, preco FROM produtos WHERE ID = {$id}";
+    $retorno = mysqli_query($conexao, $query);
+    return mysqli_fetch_assoc($retorno);
+}

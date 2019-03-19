@@ -15,9 +15,17 @@
     <div class="uk-navbar-left">
 
         <ul class="uk-navbar-nav">
-            <li><a href="/loja">Home</a></li>
-            <li><a href="produto-formulario.php">Adicionar produto</a></li>
-            <li><a href="listar-produto.php">Listar produto</a></li>
+            <li><a href="index.php">home</a></li>
+            <li>
+                <a href="produto-formulario.php">produto</a>
+                <div class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li><a href="produto-formulario.php">cadastrar</a></li>
+                        <li><a href="listar-produto.php">listar</a></li>
+                    </ul>
+                </div>
+            </li>
         </ul>
+
     </div>
 </nav>
